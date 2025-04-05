@@ -1,9 +1,7 @@
 import nltk
 
 # Download saat pertama kali run
-nltk.download("punkt")
 nltk.download("stopwords")
-nltk.download("wordnet")
 
 from flask import Flask, request, jsonify
 import json
