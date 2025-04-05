@@ -50,8 +50,8 @@ stop_words = set(stopwords.words("indonesian"))
 vectorizer = TfidfVectorizer(
     tokenizer=lambda text: [
         lemmatizer.lemmatize(word.lower())
-        for word in nltk.word_tokenize(text)
-        if word.lower() not in stop_words  # Hilangkan stopwords
+        for word in text.split()  # ganti dari nltk.word_tokenize ke split
+        if word.lower() not in stop_words
     ]
 )
 pattern_vectors = vectorizer.fit_transform(patterns)
