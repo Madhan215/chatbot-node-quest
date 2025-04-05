@@ -1,0 +1,157 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hai",
+                "Halo",
+                "Hallo",
+                "Hi",
+                "Selamat pagi",
+                "Selamat siang",
+                "Selamat sore",
+                "Selamat malam"
+            ],
+            "responses": [
+                "Halo! Saya Rotel, ada yang bisa saya bantu?",
+                "Hai! Saya Rotel, bagaimana saya dapat membantu Anda?",
+                "Selamat datang! Saya Rotel, apa yang bisa saya lakukan untuk Anda?"
+            ]
+        },
+        {
+            "tag": "pengenalan_nodejs",
+            "patterns": [
+                "Node.js",
+                "Node js",
+                "Apa itu Node.js?",
+                "Jelaskan tentang Node.js.",
+                "Node.js itu apa?",
+                "Apa yang dimaksud dengan Node.js?",
+                "Definisi Node.js"
+            ],
+            "responses": [
+                "Node.js adalah runtime JavaScript open-source dan cross-platform yang memungkinkan Anda menjalankan JavaScript di luar browser. Ini sering digunakan untuk membangun server dan aplikasi jaringan."
+            ]
+        },
+        {
+            "tag": "keunggulan_nodejs",
+            "patterns": [
+                "Mengapa menggunakan Node.js?",
+                "Apa kelebihan Node.js?",
+                "Kenapa memilih Node.js?",
+                "Manfaat menggunakan Node.js",
+                "Keunggulan Node.js dibandingkan dengan teknologi lain",
+                "keunggulan Node.js"
+            ],
+            "responses": [
+                "Node.js menawarkan performa tinggi dengan I/O non-blocking, memungkinkan penanganan ribuan koneksi secara bersamaan. Selain itu, menggunakan JavaScript untuk backend dan frontend memudahkan pengembangan aplikasi full-stack."
+            ]
+        },
+        {
+            "tag": "instalasi_nodejs",
+            "patterns": [
+                "Bagaimana cara menginstal Node.js?",
+                "Cara instalasi Node.js",
+                "Panduan instalasi Node.js",
+                "Langkah-langkah menginstal Node.js",
+                "Instalasi Node.js di sistem saya"
+            ],
+            "responses": [
+                "Untuk menginstal Node.js, kunjungi situs resmi di https://nodejs.org, unduh versi yang sesuai dengan sistem operasi Anda, dan ikuti petunjuk instalasi yang diberikan."
+            ]
+        },
+        {
+            "tag": "penggunaan_nodejs",
+            "patterns": [
+                "Bagaimana cara menggunakan Node.js?",
+                "Contoh penggunaan Node.js",
+                "Cara kerja Node.js",
+                "Implementasi Node.js dalam proyek",
+                "Tutorial penggunaan Node.js"
+            ],
+            "responses": [
+                "Node.js digunakan untuk membangun berbagai jenis aplikasi seperti server web, API, dan aplikasi real-time. Anda dapat memulai dengan membuat file JavaScript dan menjalankannya menggunakan perintah 'node nama_file.js' di terminal."
+            ]
+        },
+        {
+            "tag": "npm",
+            "patterns": [
+                "Apa itu npm?",
+                "Fungsi npm dalam Node.js",
+                "Cara menggunakan npm",
+                "Manfaat npm",
+                "Pengertian npm"
+            ],
+            "responses": [
+                "NPM (Node Package Manager) adalah manajer paket default untuk Node.js. Ini digunakan untuk mengelola pustaka dan modul yang dapat Anda gunakan dalam proyek Node.js Anda."
+            ]
+        },
+        {
+            "tag": "framework_nodejs",
+            "patterns": [
+                "Framework apa yang tersedia untuk Node.js?",
+                "Contoh framework Node.js",
+                "Framework populer untuk Node.js",
+                "Rekomendasi framework Node.js",
+                "Framework terbaik untuk Node.js"
+            ],
+            "responses": [
+                "Beberapa framework populer untuk Node.js antara lain Express.js, Koa.js, dan Hapi.js. Framework ini membantu mempermudah pengembangan aplikasi dengan menyediakan struktur dan fitur tambahan."
+            ]
+        },
+        {
+            "tag": "asynchronous_nodejs",
+            "patterns": [
+                "Apa itu pemrograman asinkron di Node.js?",
+                "Cara kerja asinkron di Node.js",
+                "Keuntungan pemrograman asinkron di Node.js",
+                "Penjelasan tentang asinkron di Node.js",
+                "Bagaimana Node.js menangani operasi asinkron?"
+            ],
+            "responses": [
+                "Pemrograman asinkron di Node.js memungkinkan operasi dijalankan tanpa menunggu operasi sebelumnya selesai, sehingga meningkatkan efisiensi dan performa aplikasi, terutama dalam penanganan I/O."
+            ]
+        },
+        {
+            "tag": "event_loop",
+            "patterns": [
+                "Apa itu event loop di Node.js?",
+                "Fungsi event loop di Node.js",
+                "Cara kerja event loop di Node.js",
+                "Penjelasan tentang event loop di Node.js",
+                "Bagaimana event loop bekerja di Node.js?"
+            ],
+            "responses": [
+                "Event loop di Node.js adalah mekanisme yang memungkinkan Node.js menangani operasi non-blocking dengan cara mengelola dan menjalankan event serta callback secara efisien."
+            ]
+        },
+        {
+            "tag": "non_blocking_io",
+            "patterns": [
+                "non blocking",
+                "non-blocking",
+                "Apa itu non-blocking I/O di Node.js?",
+                "Keuntungan non-blocking I/O di Node.js",
+                "Cara kerja non-blocking I/O di Node.js",
+                "Penjelasan tentang non-blocking I/O di Node.js",
+                "Bagaimana Node.js menangani non-blocking I/O?"
+            ],
+            "responses": [
+                "Non-blocking I/O di Node.js memungkinkan operasi input/output dilakukan tanpa menghentikan eksekusi program, sehingga meningkatkan efisiensi dan performa aplikasi."
+            ]
+        },
+        {
+            "tag": "belajar_nodejs",
+            "patterns": [
+                "Bagaimana cara belajar Node.js?",
+                "Sumber belajar Node.js",
+                "Tutorial Node.js untuk pemula",
+                "Cara memulai dengan Node.js",
+                "Panduan belajar Node.js"
+            ],
+            "responses": [
+                "Untuk belajar Node.js, Anda dapat memulai dengan dokumentasi resmi di https://nodejs.org/en/docs/. Selain itu, terdapat banyak tutorial online, kursus video, dan buku yang dapat membantu Anda memahami dan menguasai Node.js."
+            ]
+        }
+    ]
+}
